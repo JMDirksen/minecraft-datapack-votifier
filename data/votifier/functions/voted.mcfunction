@@ -46,5 +46,7 @@ execute if score $random random matches 98..99 run give @a[scores={voted=1..}] e
 execute if score $random random matches 100 run tellraw @a ["",{"selector":"@a","color":"gold"},{"text":" got: ","color":"green"},{"text":"1 totem of undying","color":"yellow"},{"text":" (1% chance)","color":"gray"}]
 execute if score $random random matches 100 run give @a[scores={voted=1..}] totem_of_undying 1
 
+# Add votes with 1
+scoreboard players add @a[scores={voted=1..}] votes 1
 # Decrease voted with 1
 scoreboard players remove @a[scores={voted=1..}] voted 1
