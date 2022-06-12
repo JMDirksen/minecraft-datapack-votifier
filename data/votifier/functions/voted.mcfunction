@@ -14,6 +14,7 @@
 scoreboard players set $max random 100
 function votifier:random
 tellraw @a ["",{"text":"Thank you ","color":"green"},{"selector":"@a[scores={voted=1..}]","color":"gold"},{"text":" for voting!","color":"green"}]
+schedule function votifier:message 30s
 
 # Give random item - 20% apple 10
 execute if score $random random matches 1..20 run tellraw @a ["",{"selector":"@a","color":"gold"},{"text":" got: ","color":"green"},{"text":"1 stack of appels","color":"yellow"},{"text":" (20% chance)","color":"gray"}]
