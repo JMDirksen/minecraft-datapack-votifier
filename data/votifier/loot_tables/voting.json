@@ -19,14 +19,16 @@
                             "lore": [
                                 [
                                     {
-                                        "text": "Thank you "
+                                        "text": "Thank you ",
+                                        "nltext": "Bedankt "
                                     },
                                     {
                                         "selector": "@s",
                                         "color": "light_purple"
                                     },
                                     {
-                                        "text": " for voting for this server"
+                                        "text": " for voting for this server",
+                                        "nltext": " voor het stemmen voor deze server"
                                     }
                                 ]
                             ]
@@ -44,14 +46,16 @@
                             "lore": [
                                 [
                                     {
-                                        "text": "Thank you "
+                                        "text": "Thank you ",
+                                        "nltext": "Bedankt "
                                     },
                                     {
                                         "selector": "@s",
                                         "color": "light_purple"
                                     },
                                     {
-                                        "text": " for voting for this server"
+                                        "text": " for voting for this server",
+                                        "nltext": " voor het stemmen voor deze server"
                                     }
                                 ]
                             ]

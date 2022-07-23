@@ -1,5 +1,6 @@
 # Message chat
 tellraw @a ["",{"text":"Thank you ","color":"green"},{"selector":"@a[scores={voted=1..}]","color":"gold"},{"text":" for voting!","color":"green"}]
+# NL tellraw @a ["",{"text":"Bedankt ","color":"green"},{"selector":"@a[scores={voted=1..}]","color":"gold"},{"text":" voor je stem!","color":"green"}]
 schedule function votifier:message 30s
 
 # Give reward/loot
