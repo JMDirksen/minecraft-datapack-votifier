@@ -1,0 +1,64 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 95,
+                    "name": "minecraft:book",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": 30,
+                            "treasure": true
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": [
+                                [
+                                    {
+                                        "text": "Thank you "
+                                    },
+                                    {
+                                        "selector": "@s",
+                                        "color": "light_purple"
+                                    },
+                                    {
+                                        "text": " for voting for this server"
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "name": "minecraft:totem_of_undying",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": [
+                                [
+                                    {
+                                        "text": "Thank you "
+                                    },
+                                    {
+                                        "selector": "@s",
+                                        "color": "light_purple"
+                                    },
+                                    {
+                                        "text": " for voting for this server"
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
